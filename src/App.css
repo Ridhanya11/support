@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.App-header{
+  height: 15%;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   background-color: white;
+}
+.App-header.App-logo{
+   height: 10%;
+   width: 15%;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.main{
   align-items: center;
+  /* text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  padding: 90px 0 90px 0; */
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  background-image: url("https://t4.ftcdn.net/jpg/01/95/26/47/360_F_195264785_oHApyzWMRq6EnHLfWy81MSKbbpp8yCkc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading{
+  align-content: center;
+  font-family:Arial, Helvetica, sans-serif;
 }
+
+h2{
+  text-align:center;
+  color:aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.sub-main{
+  /* display: flex; 
+  justify-content: center;  */
+  padding-top: 100px;
+  height: 450px;
+  margin-left:400px; 
+  width: 50%;
+  align-content: center;
+  background-color: white;    
+}
+.b1
+ {
+  color: rgb(245, 245, 245);
+  background-color: rgb(110, 101, 101);
+  border-color: rgb(243, 239, 239);
+  float:right;
+  height:40px;
+  width:90px;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+
+button
+{
+  color: whitesmoke;
+  background-color: grey;
+  border-color: grey;
+  height:40px;
+  width:90px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 600px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+label {
+  float:inline-start;
+  display: flex;
+  text-align: right;
+  width: 600px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+    
+  
+  } 
+  
+  input {
+    height: 30px;
+    flex:  50px;
+    width: 400px;
+    float: left;
+    display:flex;
+    flex-direction: row;
+    margin-left: 100px;
+    
+   } 
